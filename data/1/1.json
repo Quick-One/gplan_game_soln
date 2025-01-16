@@ -1,0 +1,67 @@
+{
+    "levelNumber": 1,
+    "grid": {
+        "row_size": 2,
+        "column_size": 2
+    },
+    "graph": {
+        "nodes": [
+            {
+                "id": 1,
+                "shape": [
+                    [
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0
+                    ]
+                ]
+            },
+            {
+                "id": 2,
+                "shape": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        0
+                    ]
+                ]
+            },
+            {
+                "id": 3,
+                "shape": [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        1
+                    ]
+                ]
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "hint": "Test hint",
+    "bestCompletitionTime": "00:00:11",
+    "allowRotation": false
+}
